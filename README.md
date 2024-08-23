@@ -10,4 +10,12 @@ Microservice example using Nest.js and Mongo
 
 ## Required
 
-To works this project we need [micro-prod-pg](https://github.com/brauliusdev/micro-prod-pg)
+To works this project we need [micro-prod-pg](https://github.com/braulioaguilar/micro-prod-pg)
+
+## RabbitMQ
+
+```sh
+## Building RabbitQM container
+
+$ docker run -it --rm --name rabbitmq_nest -p 5672:5672 -p 15672:15672 rabbitmq:3-management
+```
